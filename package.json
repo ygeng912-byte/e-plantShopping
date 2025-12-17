@@ -1,14 +1,12 @@
-{
-  "name": "shoppingcart",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build; vite preview --host"
+    "preview": "vite preview"
   },
+<<<<<<< HEAD
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "react": "^18.2.0",
@@ -27,3 +25,5 @@
     "vite": "^5.2.0"
   }
 }
+=======
+>>>>>>> c1b2965aea2a6c6e6542ed35d816fffa74b41000
